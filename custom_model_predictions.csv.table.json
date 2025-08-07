@@ -1,0 +1,1111 @@
+{
+  "columns": [
+    {
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false,
+      "width": 51
+    },
+    {
+      "field": "SK_ID_CURR",
+      "title": "SK_ID_CURR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 131
+    },
+    {
+      "field": "TARGET",
+      "title": "TARGET",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 156
+    },
+    {
+      "field": "NAME_CONTRACT_TYPE",
+      "title": "NAME_CONTRACT_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 207
+    },
+    {
+      "field": "CODE_GENDER",
+      "title": "CODE_GENDER",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 150
+    },
+    {
+      "field": "FLAG_OWN_CAR",
+      "title": "FLAG_OWN_CAR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 159
+    },
+    {
+      "field": "FLAG_OWN_REALTY",
+      "title": "FLAG_OWN_REALTY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "CNT_CHILDREN",
+      "title": "CNT_CHILDREN",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 153
+    },
+    {
+      "field": "AMT_INCOME_TOTAL",
+      "title": "AMT_INCOME_TOTAL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 188
+    },
+    {
+      "field": "AMT_CREDIT",
+      "title": "AMT_CREDIT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 135
+    },
+    {
+      "field": "AMT_ANNUITY",
+      "title": "AMT_ANNUITY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "AMT_GOODS_PRICE",
+      "title": "AMT_GOODS_PRICE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 180
+    },
+    {
+      "field": "NAME_TYPE_SUITE",
+      "title": "NAME_TYPE_SUITE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "NAME_INCOME_TYPE",
+      "title": "NAME_INCOME_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 189
+    },
+    {
+      "field": "NAME_EDUCATION_TYPE",
+      "title": "NAME_EDUCATION_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 212
+    },
+    {
+      "field": "NAME_FAMILY_STATUS",
+      "title": "NAME_FAMILY_STATUS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 198
+    },
+    {
+      "field": "NAME_HOUSING_TYPE",
+      "title": "NAME_HOUSING_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 198
+    },
+    {
+      "field": "REGION_POPULATION_RELATIVE",
+      "title": "REGION_POPULATION_RELATIVE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 257
+    },
+    {
+      "field": "DAYS_BIRTH",
+      "title": "DAYS_BIRTH",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 131
+    },
+    {
+      "field": "DAYS_EMPLOYED",
+      "title": "DAYS_EMPLOYED",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 163
+    },
+    {
+      "field": "DAYS_REGISTRATION",
+      "title": "DAYS_REGISTRATION",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 186
+    },
+    {
+      "field": "DAYS_ID_PUBLISH",
+      "title": "DAYS_ID_PUBLISH",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "OWN_CAR_AGE",
+      "title": "OWN_CAR_AGE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 153
+    },
+    {
+      "field": "FLAG_MOBIL",
+      "title": "FLAG_MOBIL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 135
+    },
+    {
+      "field": "FLAG_EMP_PHONE",
+      "title": "FLAG_EMP_PHONE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 173
+    },
+    {
+      "field": "FLAG_WORK_PHONE",
+      "title": "FLAG_WORK_PHONE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 186
+    },
+    {
+      "field": "FLAG_CONT_MOBILE",
+      "title": "FLAG_CONT_MOBILE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "FLAG_PHONE",
+      "title": "FLAG_PHONE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 140
+    },
+    {
+      "field": "FLAG_EMAIL",
+      "title": "FLAG_EMAIL",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 133
+    },
+    {
+      "field": "OCCUPATION_TYPE",
+      "title": "OCCUPATION_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 176
+    },
+    {
+      "field": "CNT_FAM_MEMBERS",
+      "title": "CNT_FAM_MEMBERS",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "REGION_RATING_CLIENT",
+      "title": "REGION_RATING_CLIENT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "REGION_RATING_CLIENT_W_CITY",
+      "title": "REGION_RATING_CLIENT_W_CITY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 261
+    },
+    {
+      "field": "WEEKDAY_APPR_PROCESS_START",
+      "title": "WEEKDAY_APPR_PROCESS_START",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 262
+    },
+    {
+      "field": "HOUR_APPR_PROCESS_START",
+      "title": "HOUR_APPR_PROCESS_START",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 240
+    },
+    {
+      "field": "REG_REGION_NOT_LIVE_REGION",
+      "title": "REG_REGION_NOT_LIVE_REGION",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 257
+    },
+    {
+      "field": "REG_REGION_NOT_WORK_REGION",
+      "title": "REG_REGION_NOT_WORK_REGION",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 271
+    },
+    {
+      "field": "LIVE_REGION_NOT_WORK_REGION",
+      "title": "LIVE_REGION_NOT_WORK_REGION",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 273
+    },
+    {
+      "field": "REG_CITY_NOT_LIVE_CITY",
+      "title": "REG_CITY_NOT_LIVE_CITY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 213
+    },
+    {
+      "field": "REG_CITY_NOT_WORK_CITY",
+      "title": "REG_CITY_NOT_WORK_CITY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 227
+    },
+    {
+      "field": "LIVE_CITY_NOT_WORK_CITY",
+      "title": "LIVE_CITY_NOT_WORK_CITY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 228
+    },
+    {
+      "field": "ORGANIZATION_TYPE",
+      "title": "ORGANIZATION_TYPE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "EXT_SOURCE_1",
+      "title": "EXT_SOURCE_1",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "EXT_SOURCE_2",
+      "title": "EXT_SOURCE_2",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "EXT_SOURCE_3",
+      "title": "EXT_SOURCE_3",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 149
+    },
+    {
+      "field": "APARTMENTS_AVG",
+      "title": "APARTMENTS_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 172
+    },
+    {
+      "field": "BASEMENTAREA_AVG",
+      "title": "BASEMENTAREA_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 189
+    },
+    {
+      "field": "YEARS_BEGINEXPLUATATION_AVG",
+      "title": "YEARS_BEGINEXPLUATATION_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 265
+    },
+    {
+      "field": "YEARS_BUILD_AVG",
+      "title": "YEARS_BUILD_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "COMMONAREA_AVG",
+      "title": "COMMONAREA_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 186
+    },
+    {
+      "field": "ELEVATORS_AVG",
+      "title": "ELEVATORS_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 157
+    },
+    {
+      "field": "ENTRANCES_AVG",
+      "title": "ENTRANCES_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 163
+    },
+    {
+      "field": "FLOORSMAX_AVG",
+      "title": "FLOORSMAX_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 167
+    },
+    {
+      "field": "FLOORSMIN_AVG",
+      "title": "FLOORSMIN_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "LANDAREA_AVG",
+      "title": "LANDAREA_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 157
+    },
+    {
+      "field": "LIVINGAPARTMENTS_AVG",
+      "title": "LIVINGAPARTMENTS_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 215
+    },
+    {
+      "field": "LIVINGAREA_AVG",
+      "title": "LIVINGAREA_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "NONLIVINGAPARTMENTS_AVG",
+      "title": "NONLIVINGAPARTMENTS_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 247
+    },
+    {
+      "field": "NONLIVINGAREA_AVG",
+      "title": "NONLIVINGAREA_AVG",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 195
+    },
+    {
+      "field": "APARTMENTS_MODE",
+      "title": "APARTMENTS_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 186
+    },
+    {
+      "field": "BASEMENTAREA_MODE",
+      "title": "BASEMENTAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 203
+    },
+    {
+      "field": "YEARS_BEGINEXPLUATATION_MODE",
+      "title": "YEARS_BEGINEXPLUATATION_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 279
+    },
+    {
+      "field": "YEARS_BUILD_MODE",
+      "title": "YEARS_BUILD_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 185
+    },
+    {
+      "field": "COMMONAREA_MODE",
+      "title": "COMMONAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 200
+    },
+    {
+      "field": "ELEVATORS_MODE",
+      "title": "ELEVATORS_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "ENTRANCES_MODE",
+      "title": "ENTRANCES_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 177
+    },
+    {
+      "field": "FLOORSMAX_MODE",
+      "title": "FLOORSMAX_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 181
+    },
+    {
+      "field": "FLOORSMIN_MODE",
+      "title": "FLOORSMIN_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 178
+    },
+    {
+      "field": "LANDAREA_MODE",
+      "title": "LANDAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "LIVINGAPARTMENTS_MODE",
+      "title": "LIVINGAPARTMENTS_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 229
+    },
+    {
+      "field": "LIVINGAREA_MODE",
+      "title": "LIVINGAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 178
+    },
+    {
+      "field": "NONLIVINGAPARTMENTS_MODE",
+      "title": "NONLIVINGAPARTMENTS_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 260
+    },
+    {
+      "field": "NONLIVINGAREA_MODE",
+      "title": "NONLIVINGAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 209
+    },
+    {
+      "field": "APARTMENTS_MEDI",
+      "title": "APARTMENTS_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 179
+    },
+    {
+      "field": "BASEMENTAREA_MEDI",
+      "title": "BASEMENTAREA_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 196
+    },
+    {
+      "field": "YEARS_BEGINEXPLUATATION_MEDI",
+      "title": "YEARS_BEGINEXPLUATATION_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 272
+    },
+    {
+      "field": "YEARS_BUILD_MEDI",
+      "title": "YEARS_BUILD_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 178
+    },
+    {
+      "field": "COMMONAREA_MEDI",
+      "title": "COMMONAREA_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 193
+    },
+    {
+      "field": "ELEVATORS_MEDI",
+      "title": "ELEVATORS_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "ENTRANCES_MEDI",
+      "title": "ENTRANCES_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "FLOORSMAX_MEDI",
+      "title": "FLOORSMAX_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 174
+    },
+    {
+      "field": "FLOORSMIN_MEDI",
+      "title": "FLOORSMIN_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "LANDAREA_MEDI",
+      "title": "LANDAREA_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 164
+    },
+    {
+      "field": "LIVINGAPARTMENTS_MEDI",
+      "title": "LIVINGAPARTMENTS_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 222
+    },
+    {
+      "field": "LIVINGAREA_MEDI",
+      "title": "LIVINGAREA_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 171
+    },
+    {
+      "field": "NONLIVINGAPARTMENTS_MEDI",
+      "title": "NONLIVINGAPARTMENTS_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 254
+    },
+    {
+      "field": "NONLIVINGAREA_MEDI",
+      "title": "NONLIVINGAREA_MEDI",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 203
+    },
+    {
+      "field": "FONDKAPREMONT_MODE",
+      "title": "FONDKAPREMONT_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 221
+    },
+    {
+      "field": "HOUSETYPE_MODE",
+      "title": "HOUSETYPE_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 176
+    },
+    {
+      "field": "TOTALAREA_MODE",
+      "title": "TOTALAREA_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 174
+    },
+    {
+      "field": "WALLSMATERIAL_MODE",
+      "title": "WALLSMATERIAL_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 206
+    },
+    {
+      "field": "EMERGENCYSTATE_MODE",
+      "title": "EMERGENCYSTATE_MODE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true,
+      "width": 216
+    },
+    {
+      "field": "OBS_30_CNT_SOCIAL_CIRCLE",
+      "title": "OBS_30_CNT_SOCIAL_CIRCLE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "DEF_30_CNT_SOCIAL_CIRCLE",
+      "title": "DEF_30_CNT_SOCIAL_CIRCLE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "OBS_60_CNT_SOCIAL_CIRCLE",
+      "title": "OBS_60_CNT_SOCIAL_CIRCLE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 235
+    },
+    {
+      "field": "DEF_60_CNT_SOCIAL_CIRCLE",
+      "title": "DEF_60_CNT_SOCIAL_CIRCLE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 233
+    },
+    {
+      "field": "DAYS_LAST_PHONE_CHANGE",
+      "title": "DAYS_LAST_PHONE_CHANGE",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 237
+    },
+    {
+      "field": "FLAG_DOCUMENT_2",
+      "title": "FLAG_DOCUMENT_2",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_3",
+      "title": "FLAG_DOCUMENT_3",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_4",
+      "title": "FLAG_DOCUMENT_4",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_5",
+      "title": "FLAG_DOCUMENT_5",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_6",
+      "title": "FLAG_DOCUMENT_6",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_7",
+      "title": "FLAG_DOCUMENT_7",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_8",
+      "title": "FLAG_DOCUMENT_8",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_9",
+      "title": "FLAG_DOCUMENT_9",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 183
+    },
+    {
+      "field": "FLAG_DOCUMENT_10",
+      "title": "FLAG_DOCUMENT_10",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_11",
+      "title": "FLAG_DOCUMENT_11",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_12",
+      "title": "FLAG_DOCUMENT_12",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_13",
+      "title": "FLAG_DOCUMENT_13",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_14",
+      "title": "FLAG_DOCUMENT_14",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_15",
+      "title": "FLAG_DOCUMENT_15",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_16",
+      "title": "FLAG_DOCUMENT_16",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_17",
+      "title": "FLAG_DOCUMENT_17",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_18",
+      "title": "FLAG_DOCUMENT_18",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_19",
+      "title": "FLAG_DOCUMENT_19",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_20",
+      "title": "FLAG_DOCUMENT_20",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "FLAG_DOCUMENT_21",
+      "title": "FLAG_DOCUMENT_21",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 191
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_HOUR",
+      "title": "AMT_REQ_CREDIT_BUREAU_HOUR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 269
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_DAY",
+      "title": "AMT_REQ_CREDIT_BUREAU_DAY",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 256
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_WEEK",
+      "title": "AMT_REQ_CREDIT_BUREAU_WEEK",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 266
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_MON",
+      "title": "AMT_REQ_CREDIT_BUREAU_MON",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 264
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_QRT",
+      "title": "AMT_REQ_CREDIT_BUREAU_QRT",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 256
+    },
+    {
+      "field": "AMT_REQ_CREDIT_BUREAU_YEAR",
+      "title": "AMT_REQ_CREDIT_BUREAU_YEAR",
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true,
+      "width": 263
+    }
+  ]
+}

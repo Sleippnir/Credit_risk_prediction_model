@@ -1,0 +1,617 @@
+{
+  "fields": [
+    {
+      "name": "SK_ID_CURR",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "TARGET",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "NAME_CONTRACT_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CODE_GENDER",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_OWN_CAR",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_OWN_REALTY",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CNT_CHILDREN",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "AMT_INCOME_TOTAL",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_CREDIT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_ANNUITY",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_GOODS_PRICE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "NAME_TYPE_SUITE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NAME_INCOME_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NAME_EDUCATION_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NAME_FAMILY_STATUS",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "NAME_HOUSING_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "REGION_POPULATION_RELATIVE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DAYS_BIRTH",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "DAYS_EMPLOYED",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "DAYS_REGISTRATION",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DAYS_ID_PUBLISH",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "OWN_CAR_AGE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_MOBIL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_EMP_PHONE",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_WORK_PHONE",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_CONT_MOBILE",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_PHONE",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_EMAIL",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "OCCUPATION_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "CNT_FAM_MEMBERS",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "REGION_RATING_CLIENT",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "REGION_RATING_CLIENT_W_CITY",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "WEEKDAY_APPR_PROCESS_START",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "HOUR_APPR_PROCESS_START",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "REG_REGION_NOT_LIVE_REGION",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "REG_REGION_NOT_WORK_REGION",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "LIVE_REGION_NOT_WORK_REGION",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "REG_CITY_NOT_LIVE_CITY",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "REG_CITY_NOT_WORK_CITY",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "LIVE_CITY_NOT_WORK_CITY",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "ORGANIZATION_TYPE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "EXT_SOURCE_1",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "EXT_SOURCE_2",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "EXT_SOURCE_3",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "APARTMENTS_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "BASEMENTAREA_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BEGINEXPLUATATION_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BUILD_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "COMMONAREA_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ELEVATORS_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ENTRANCES_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMAX_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMIN_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LANDAREA_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAPARTMENTS_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAREA_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAPARTMENTS_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAREA_AVG",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "APARTMENTS_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "BASEMENTAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BEGINEXPLUATATION_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BUILD_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "COMMONAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ELEVATORS_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ENTRANCES_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMAX_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMIN_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LANDAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAPARTMENTS_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAPARTMENTS_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "APARTMENTS_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "BASEMENTAREA_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BEGINEXPLUATATION_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "YEARS_BUILD_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "COMMONAREA_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ELEVATORS_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "ENTRANCES_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMAX_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FLOORSMIN_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LANDAREA_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAPARTMENTS_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "LIVINGAREA_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAPARTMENTS_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "NONLIVINGAREA_MEDI",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "FONDKAPREMONT_MODE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "HOUSETYPE_MODE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "TOTALAREA_MODE",
+      "type": "any",
+      "format": "default"
+    },
+    {
+      "name": "WALLSMATERIAL_MODE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "EMERGENCYSTATE_MODE",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "OBS_30_CNT_SOCIAL_CIRCLE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DEF_30_CNT_SOCIAL_CIRCLE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "OBS_60_CNT_SOCIAL_CIRCLE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DEF_60_CNT_SOCIAL_CIRCLE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "DAYS_LAST_PHONE_CHANGE",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_2",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_3",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_4",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_5",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_6",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_7",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_8",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_9",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_10",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_11",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_12",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_13",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_14",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_15",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_16",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_17",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_18",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_19",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_20",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "FLAG_DOCUMENT_21",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_HOUR",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_DAY",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_WEEK",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_MON",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_QRT",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "AMT_REQ_CREDIT_BUREAU_YEAR",
+      "type": "number",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
