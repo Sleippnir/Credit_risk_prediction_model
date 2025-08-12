@@ -89,7 +89,7 @@ More on Python testing:
 
 ---
 
-💡 This project is part of my journey in applying machine learning to real-world financial risk prediction problems.
+💡 This project is part of my journey in understanding machine learning to real-world financial risk prediction problems.
 
 ```
 
