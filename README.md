@@ -1,61 +1,97 @@
-# Sprint project 02
-> Home Credit Default Risk
 
-## The Business problem
+# 🏠 Home Credit Default Risk – My Machine Learning Project
 
-This is a binary Classification task: we want to predict whether the person applying for a home credit will be able to repay their debt or not. Our model will have to predict a 1 indicating the client will have payment difficulties: he/she will have late payment of more than X days on at least one of the first Y installments of the loan in our sample, 0 in all other cases.
+## 📌 Project Overview
 
-We will use [Area Under the ROC Curve](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=es_419) as the evaluation metric, so our models will have to return the probabilities that a loan is not paid for each input data.
+This project focuses on solving a **binary classification problem**: predicting whether a person applying for a home credit will be able to repay their loan.  
 
-## About the data
+The model predicts:  
+- **1** → Client is likely to have payment difficulties (late payment of more than X days on at least one of the first Y installments).  
+- **0** → Client is expected to repay without major delays.  
 
-The original dataset is composed of multiple files with different information about loans taken. In this project, we will work exclusively with the primary files: `application_train_aai.csv` and `application_test_aai.csv`.
+The main evaluation metric is **[AUC-ROC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=es_419)**, meaning the model outputs **probabilities** that a loan will not be repaid.
 
-You don't have to worry about downloading the data, it will be automatically downloaded from the `AnyoneAI - Sprint Project 02.ipynb` notebook in `Section 1 - Getting the data`.
+---
 
-## Technical aspects
+## 📂 Dataset
 
-To develop this Machine Learning model you will have to primary interact with the Jupyter notebook provided, called `AnyoneAI - Sprint Project 02.ipynb`. This notebook will guide you through all the steps you have to follow and the code you have to complete in the different parts of the project, also marked with a `TODO` comment.
+The original dataset comes with multiple files containing loan-related information.  
+For this project, I’m working exclusively with:
 
-The technologies involved are:
-- Python as the main programming language
-- Pandas for consuming data from CSVs files
-- Scikit-learn for building features and training ML models
-- Matplotlib and Seaborn for the visualizations
-- Jupyter notebooks to make the experimentation in an interactive way
+- `application_train_aai.csv`
+- `application_test_aai.csv`
 
-## Installation
+No need to manually download them — the notebook handles it automatically in **Section 1 - Getting the Data**.
 
-A `requirements.txt` file is provided with all the needed Python libraries for running this project. For installing the dependencies just run:
+---
 
-```console
-$ pip install -r requirements.txt
+## 🛠 Tech Stack
+
+I used the following tools and libraries to build and evaluate the model:
+
+- **Python** – Core programming language  
+- **Pandas** – Data loading and manipulation  
+- **Scikit-learn** – Feature engineering, model training, and evaluation  
+- **Matplotlib & Seaborn** – Data visualization  
+- **Jupyter Notebooks** – Interactive experimentation
+
+---
+
+## 🚀 Installation
+
+Clone this repository and install dependencies:  
+
+```bash
+pip install -r requirements.txt
+````
+
+> 💡 *Tip:* It’s best to install dependencies inside a virtual environment.
+
+---
+
+## 🧹 Code Style
+
+To keep the code clean and consistent, I use **[Black](https://black.readthedocs.io/)** and **[isort](https://pycqa.github.io/isort/)** for automatic formatting:
+
+```bash
+isort --profile=black . && black --line-length 88 .
 ```
 
-*Note:* We encourage you to install those inside a virtual environment.
+Further reading on Python code style:
 
-## Code Style
+* [The Hitchhiker’s Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
+* [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 
-Following a style guide keeps the code's aesthetics clean and improves readability, making contributions and code reviews easier. Automated Python code formatters make sure your codebase stays in a consistent style without any manual work on your end. If adhering to a specific style of coding is important to you, employing an automated to do that job is the obvious thing to do. This avoids bike-shedding on nitpicks during code reviews, saving you an enormous amount of time overall.
+---
 
-We use [Black](https://black.readthedocs.io/) and [isort](https://pycqa.github.io/isort/) for automated code formatting in this project, you can run it with:
+## ✅ Testing
 
-```console
-$ isort --profile=black . && black --line-length 88 .
+The project includes unit tests to ensure correctness. Run them with:
+
+```bash
+pytest tests/
 ```
 
-Wanna read more about Python code style and good practices? Please see:
-- [The Hitchhiker’s Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
-- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+More on Python testing:
 
-## Tests
+* [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
+* [The Hitchhiker’s Guide to Python: Testing Your Code](https://docs.python-guide.org/writing/tests/)
 
-We provide unit tests along with the project that you can run and check from your side the code meets the minimum requirements of correctness needed to approve. To run just execute:
+---
 
-```console
-$ pytest tests/
+## 📊 Workflow Summary
+
+1. **Data Loading** – Automatic download via Google Drive links.
+2. **Preprocessing** – Handling missing values, encoding categorical variables, scaling features.
+3. **Model Training** – Using supervised learning algorithms for binary classification.
+4. **Evaluation** – Primary metric: AUC-ROC score.
+5. **Testing** – Ensuring functions and preprocessing steps work as intended.
+
+---
+
+💡 This project is part of my journey in applying machine learning to real-world financial risk prediction problems.
+
 ```
 
-If you want to learn more about testing Python code, please read:
-- [Effective Python Testing With Pytest](https://realpython.com/pytest-python-testing/)
-- [The Hitchhiker’s Guide to Python: Testing Your Code](https://docs.python-guide.org/writing/tests/)
+If you want, I can also **add a “Project Results” section** with placeholder charts so your GitHub README looks even more professional. Would you like me to do that?
+```
