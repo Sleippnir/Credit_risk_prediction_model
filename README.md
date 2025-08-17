@@ -1,13 +1,12 @@
-
-# 🏠 Home Credit Default Risk – My Machine Learning Project
+# 🏠 Home Credit Default Risk Case Study
 
 ## 📌 Project Overview
 
-This project focuses on solving a **binary classification problem**: predicting whether a person applying for a home credit will be able to repay their loan.  
+This project presents a case study on solving a **binary classification problem**: predicting whether a person applying for a home credit will be able to repay their loan.
 
-The model predicts:  
-- **1** → Client is likely to have payment difficulties (late payment of more than X days on at least one of the first Y installments).  
-- **0** → Client is expected to repay without major delays.  
+The model predicts:
+- **1** → Client is likely to have payment difficulties (late payment of more than X days on at least one of the first Y installments).
+- **0** → Client is expected to repay without major delays.
 
 The main evaluation metric is **[AUC-ROC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=es_419)**, meaning the model outputs **probabilities** that a loan will not be repaid.
 
@@ -15,43 +14,43 @@ The main evaluation metric is **[AUC-ROC](https://developers.google.com/machine-
 
 ## 📂 Dataset
 
-The original dataset comes with multiple files containing loan-related information.  
-For this project, I’m working exclusively with:
+The original dataset comes with multiple files containing loan-related information.
+For this project, the focus is exclusively on:
 
 - `application_train_aai.csv`
 - `application_test_aai.csv`
 
-No need to manually download them — the notebook handles it automatically in **Section 1 - Getting the Data**.
+The notebook handles the data download automatically in **Section 1 - Getting the Data**.
 
 ---
 
 ## 🛠 Tech Stack
 
-I used the following tools and libraries to build and evaluate the model:
+The following tools and libraries were used to build and evaluate the model:
 
-- **Python** – Core programming language  
-- **Pandas** – Data loading and manipulation  
-- **Scikit-learn** – Feature engineering, model training, and evaluation  
-- **Matplotlib & Seaborn** – Data visualization  
+- **Python** – Core programming language
+- **Pandas** – Data loading and manipulation
+- **Scikit-learn** – Feature engineering, model training, and evaluation
+- **Matplotlib & Seaborn** – Data visualization
 - **Jupyter Notebooks** – Interactive experimentation
 
 ---
 
 ## 🚀 Installation
 
-Clone this repository and install dependencies:  
+To run this project, clone the repository and install the dependencies:
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
-> 💡 *Tip:* It’s best to install dependencies inside a virtual environment.
+> 💡 *Tip:* It’s recommended to install dependencies inside a virtual environment.
 
 ---
 
 ## 🧹 Code Style
 
-To keep the code clean and consistent, I use **[Black](https://black.readthedocs.io/)** and **[isort](https://pycqa.github.io/isort/)** for automatic formatting:
+To maintain clean and consistent code, **[Black](https://black.readthedocs.io/)** and **[isort](https://pycqa.github.io/isort/)** are used for automatic formatting:
 
 ```bash
 isort --profile=black . && black --line-length 88 .
@@ -66,7 +65,7 @@ Further reading on Python code style:
 
 ## ✅ Testing
 
-The project includes unit tests to ensure correctness. Run them with:
+The project includes unit tests to ensure correctness. They can be run with:
 
 ```bash
 pytest tests/
@@ -89,9 +88,4 @@ More on Python testing:
 
 ---
 
-💡 This project is part of my journey in understanding machine learning to real-world financial risk prediction problems.
-
-```
-
-If you want, I can also **add a “Project Results” section** with placeholder charts so your GitHub README looks even more professional. Would you like me to do that?
-```
+💡 This project serves as a case study for applying machine learning to real-world financial risk prediction problems.
